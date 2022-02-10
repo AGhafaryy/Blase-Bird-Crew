@@ -1269,6 +1269,39 @@ a:visited {
   margin-top: 7px;
 }
 
+@-webkit-keyframes shapeRotate {
+  0%,
+    100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20%,
+    80% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  60% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes shapeRotate {
+  0%,
+    100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20%,
+    80% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  60% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
 
 /*
 * 7. footer styles
