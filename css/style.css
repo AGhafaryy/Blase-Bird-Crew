@@ -1905,14 +1905,6 @@ a:visited {
   top: 120px;
 }
 
-.center-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
-
 /*
 * 13. pricing styles
 */
