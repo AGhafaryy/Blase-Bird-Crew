@@ -730,6 +730,21 @@ a:visited {
   padding-left: 45px;
   padding-right: 45px;
 }
+
+.container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+.container:after {
+  content: '';
+  width: 100%;
+}
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .container .item:nth-child(n + 3){
+            order: 1;
+        }
+     } 
 .blog-one__single {
   margin-bottom: 60px;
 }
