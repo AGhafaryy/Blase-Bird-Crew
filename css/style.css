@@ -168,21 +168,6 @@ a:visited {
   color: #fff;
   cursor: pointer;
 }
-  .container2{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-.container2:after {
-  content: '';
-  width: 100%;
-}
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        .container2 .item:nth-child(n + 3){
-            order: 1;
-        }
-     }
-
 .preloader {
   position: fixed;
   top: 0;
