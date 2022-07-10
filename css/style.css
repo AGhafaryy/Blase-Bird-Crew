@@ -55,6 +55,9 @@ a:visited {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  
 }
 .thm-black-bg {
   background-color: #33e6ff;
